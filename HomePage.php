@@ -14,11 +14,14 @@
                 <h1>HELLO<br>
                 I'M <span>Anudeep</span> GI</h1>
                 <h2>FullStack Developer</h2>
-                <p class="social-media hidden-xs">
+                <p class="social-media">
                     <a href="#" class="fa fa-facebook" data-toggle="tooltip" title="" data-original-title="Facebook"></a>
-                    <a href="#" class="icon-linkedin-squared" data-toggle="tooltip" title="" data-original-title="Linkedin"></a>
+                    <a href="https://in.linkedin.com/in/anudeep-g-i-b1a33b3b" class="icon-linkedin-squared" data-toggle="tooltip" title="" data-original-title="Linkedin"></a>
                     <a href="#" class="icon-instagram" data-toggle="tooltip" title="" data-original-title="Instagram"></a>
-                </p>
+<a href="/blog" class="icon-" data-toggle="tooltip" title="" data-original-title="Blog">Blogs</a>
+
+
+		</p>
                 
                 <!-- Social Media Icons [ END ] -->
                 
@@ -61,7 +64,7 @@
             </div>
             
             <!-- Single Navigation Menu Button [ END ]  -->
-            
+           
             <div class="portfolio-btn">
                 <img alt="portfolio" src="https://preview.ibb.co/j7rtZJ/car_anudeep.jpg">
                 <div class="mask">
@@ -71,8 +74,8 @@
                         <i class="icon-code"></i>
                     </div>
                     <div class="col-sm-10">
-                        <h2>My<span>L</span>ife</h2>
-                        <h3>Working On....</h3>
+                        <h2>Bl<span>o</span>gs</h2>
+                        <h3>Random topics</h3>
                     </div>
                 </div>
             </div>

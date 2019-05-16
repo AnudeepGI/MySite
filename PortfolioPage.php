@@ -10,7 +10,7 @@
             <div class="mask">
             </div>
             <div class="main-heading">
-                <h1>My<span>L</span>ife</h1>
+                <h1>Bl<span>O</span>gs</h1>
             </div>
         </div>
         
@@ -19,7 +19,7 @@
         <div class="content-container col-md-7 col-sm-12">
             
 
-            <h1>Working on .....</h1>
+            <a href="/blog">Blogs</a>
 
             <div class="footer clearfix">
                 <a href="http://anudeepgi.com/">Anudeep GI</a>
