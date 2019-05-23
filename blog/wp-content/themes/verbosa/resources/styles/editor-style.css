@@ -1,0 +1,14 @@
+/*
+ * Theme Name: Verbosa
+ * Description:  Styles specific to the  TinyMCE editor.
+ */
+
+@import url( '../../style.css' ); /* Import the theme's styling */
+@import url( '../fonts/fontfaces.css' ); /* Import the fonts */
+
+html body.mce-content-body,
+html body.mce-content-body.wp-autoresize {
+	margin:    0;
+	padding:   1em 1em 0 !important;
+	border:    none;
+}

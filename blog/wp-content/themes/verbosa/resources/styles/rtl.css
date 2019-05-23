@@ -1,0 +1,441 @@
+/*
+ * Theme Name: Verbosa
+ * Styling for RTL languages
+ */
+
+/*--------------------------------------------------------------
+	# THEME SPECIFIC DEFAULTS
+--------------------------------------------------------------*/
+
+body {
+	text-align: right;
+	direction:rtl;
+	unicode-bidi:embed;
+}
+
+address {
+	padding-right: 1em;
+	padding-left: 0;
+}
+
+select {
+	border-radius: 0 100px 100px 0;
+}
+
+/* Text meant only for screen readers */
+.screen-reader-text {
+	position: absolute;
+	left: auto;
+	right: -9000px;
+}
+
+/*--------------------------------------------------------------
+	## MAIN MENU
+--------------------------------------------------------------*/
+
+
+#access a:hover span {
+	padding-left: 0;
+	padding-right: .3em;
+}
+
+#access li a span::before {
+	left: auto;
+	right: -1.3em;
+}
+
+#access ul li {
+	margin-left: 0;
+	margin-right: .3em;
+}
+
+.dropdown-toggle {
+	right: auto;
+	left: 0;
+}
+
+nav .sub-menu.toggled-on,
+nav .children.toggled-on {
+	padding-left: 0;
+	padding-right: 1em;
+}
+
+
+/*--------------------------------------------------------------
+	# CONTENT
+--------------------------------------------------------------*/
+
+#container.two-columns-left	{
+	direction: ltr;
+}
+
+#container.two-columns-left #sidebar {
+	float: left;
+	direction: rtl;
+ }
+
+ #container.two-columns-left #main {
+	 direction: rtl;
+ }
+
+.entry-content blockquote.left {
+	float: right;
+	margin-left: 2em;
+	margin-right: 0;
+	text-align: left;
+}
+.entry-content blockquote.right {
+	float: left;
+	margin-left: 0;
+	margin-right: 2em;
+	text-align: right;
+}
+
+/*--------------------------------------------------------------
+	## PAGE TITLES
+--------------------------------------------------------------*/
+
+.entry-title {
+	font-weight: 300;
+	line-height: 1.4;
+	padding: .1em 0;
+	margin: 0;
+	word-wrap: break-word;
+	text-align: center;
+}
+
+.entry-title a {
+	background-position: 100% 100%;
+}
+
+.entry-title a:hover {
+	background-size: 100% 2px;
+}
+
+/*--------------------------------------------------------------
+	## POST METAS
+--------------------------------------------------------------*/
+.entry-meta span,
+.entry-utility span {
+	margin-left: 1em;
+	margin-right: 0;
+}
+
+.entry-meta span a{
+	padding-right: .2em;
+	padding-left: 0;
+}
+
+.entry-meta a {
+	background-position: 100% 100%;
+}
+
+.tag-links {
+	margin-right: 2em;
+	margin-left: 0;
+}
+
+span.edit-link {
+	right: auto;
+	left: .5em;
+}
+
+/*--------------------------------------------------------------
+	## AUTHOR INFO
+--------------------------------------------------------------*/
+
+#author-info #author-avatar {
+	float: left;
+}
+
+#author-info #author-description {
+	float: right;
+}
+
+#entry-author-info #author-avatar {
+	float: left;
+}
+
+#entry-author-info #author-description {
+	float: right;
+}
+
+/*--------------------------------------------------------------
+	## ARTICLES
+--------------------------------------------------------------*/
+
+#container.two-columns-right .main {
+	direction: rtl;
+}
+
+.magazine-layout #content-masonry article.hentry {
+	float: right;
+}
+
+/*--------------------------------------------------------------
+	## PAGE NAVIGATION
+--------------------------------------------------------------*/
+
+
+
+#nav-below em {
+	padding: 0 1em 1em 0;
+	position: relative;
+}
+
+#nav-below > div:before {
+	left: -8px;
+	right: auto;
+}
+
+#nav-below .nav-next:before {
+	right: -8px;
+	left: auto;
+}
+
+#nav-below .nav-next em {
+	text-align: left;
+	padding: 0 0 1em 1em;
+}
+
+#nav-below .nav-previous,
+#nav-below .nav-next {
+	float: right;
+}
+
+#nav-below .nav-previous a {
+	padding: .5em .8em .5em 2em;
+	float: right;
+}
+
+#nav-below .nav-next a {
+	padding: .5em 2em .5em .8em;
+	text-align: left;
+	float: left;
+}
+
+#nav-below .nav-previous a:before,
+#nav-below .nav-next a:before {
+	right: 0;
+	left: auto;
+}
+
+#nav-old-below .nav-previous,
+#nav-old-below .nav-next {
+	float: right;
+}
+
+
+/*--------------------------------------------------------------
+	# POST FORMATS
+--------------------------------------------------------------*/
+
+.format-status .avatar {
+	float: right;
+}
+
+/*--------------------------------------------------------------
+	# COMMENTS
+--------------------------------------------------------------*/
+
+#nav-comments .nav-next,
+#nav-comments .nav-previous {
+	float: right;
+}
+
+#nav-comments .nav-next:hover i {
+	padding-right: .5em;
+	padding-left: 0;
+}
+
+#nav-comments .nav-previous:hover i {
+	padding-right: 0;
+	padding-left: .5em;
+}
+
+#main .commentlist img.avatar {
+	float: right;
+}
+
+.comment-author {
+	float: right;
+}
+
+.comment-meta {
+	float: right;
+}
+
+.commentlist .children {
+	margin-left: 0;
+	margin-right: 1.5em;
+}
+
+.reply a {
+	margin-left: 0;
+	margin-right: 1em;
+}
+
+/*--------------------------------------------------------------
+	## COMMENT FORM
+--------------------------------------------------------------*/
+
+.comment-placeholder .comment-form input[type="text"],
+.comment-placeholder .comment-form input[type="email"],
+.comment-placeholder .comment-form input[type="url"],
+.comment-placeholder .comment-form textarea {
+	padding-left: 0;
+	padding-right: 3em;
+}
+
+.comment-placeholder .comment-form > p:before {
+	left: auto;
+	right: 1em;
+}
+
+/*--------------------------------------------------------------
+	# WIDGET AREAS
+--------------------------------------------------------------*/
+
+.widget-container ul ul {
+	margin-right: 1em;
+	margin-left: 0;
+}
+
+.widget-title {
+	margin-left: auto;
+	margin-right: -2.5em;
+}
+
+.widget-title:after {
+	left: auto;
+	right: 0;
+}
+
+.widget-title span {
+	float: right;
+	margin-left: auto;
+	margin-right: 2em;
+}
+
+#wp-calendar caption {
+	text-align: right;
+}
+
+#wp-calendar tfoot #next {
+	text-align: left;
+}
+
+/*--------------------------------------------------------------
+	# SEARCHFORM
+--------------------------------------------------------------*/
+
+/* ## SIDEBAR SEARCH */
+.searchform input[type="search"]  {
+	float: right;
+	padding: 0 1.5em 0 3.5em;
+}
+
+.searchform:before {
+	left: 0;
+	right: auto;
+}
+
+.searchform:hover:before,
+.searchform.focused:before {
+	margin-right: 0;
+	margin-left: -55px;
+}
+
+.searchform .searchsubmit {
+	right: auto;
+	left: 0;
+}
+
+.searchform .searchsubmit:hover {
+	background: transparent;
+}
+
+/*--------------------------------------------------------------
+	# SOCIALS
+--------------------------------------------------------------*/
+
+.socials a {
+	float: right;
+}
+
+/*--------------------------------------------------------------
+	# MISCELLANEOUS
+--------------------------------------------------------------*/
+
+/* ## BACK TO TOP */
+#toTop {
+	left: -60px;
+	right: auto;
+}
+
+.show2top#toTop {
+	right: auto;
+	left: -1px;
+	border-radius: 0 100px 0 0;
+}
+
+.icon-back2top:before {
+	left: auto;
+	right: .4em;
+}
+
+.pagination span,
+.pagination a {
+	float: right;
+}
+
+.continue-reading-link span {
+	left: auto;
+	right: 0;
+}
+
+a.continue-reading-link i {
+	left: auto;
+	right: 0;
+	margin-left: 0;
+	margin-right: .5em;
+}
+
+a.continue-reading-link:hover span {
+	left: auto;
+	right: -.5em;
+}
+
+a.continue-reading-link:hover i {
+	margin-left: 0;
+	margin-right: 1em;
+}
+
+.icon-arrow-right2:before {
+    content: "\e945";
+}
+
+.icon-arrow-left2:before {
+    content: "\e941";
+}
+
+.entry-content blockquote:before {
+	left: auto;
+	right: 0;
+}
+
+.entry-content blockquote:after {
+	right: auto;
+	left: 0;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 800px) {
+	.rtl #sheader {
+		margin-right: 0;
+		margin-left: 2em;
+	}
+}
+
+/* FIN! */
